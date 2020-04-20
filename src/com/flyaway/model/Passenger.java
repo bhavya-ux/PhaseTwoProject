@@ -43,17 +43,17 @@ public class Passenger {
 	public void setSeat_no(String seat_no) {
 		this.seat_no = seat_no;
 	}
-	public Flight getFlight() {
-		return flight;
-	}
-	public void setFlight(Flight flight) {
-		this.flight = flight;
-	}
 	public String getPayment_method() {
 		return payment_method;
 	}
 	public void setPayment_method(String payment_method) {
 		this.payment_method = payment_method;
+	}
+	public Flight getFlight() {
+		return flight;
+	}
+	public void setFlight(Flight flight) {
+		this.flight = flight;
 	}
 	
 	
